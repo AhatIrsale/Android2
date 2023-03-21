@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/txtv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="263dp"
+        android:layout_marginTop="-30dp"
+        app:cardBackgroundColor="@color/material_dynamic_primary50"
+        app:cardCornerRadius="50dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient_color">
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="top"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/lefticon" />
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:paddingTop="10dp"
+                android:src="@drawable/pf" />
+
+            <TextView
+                android:layout_width="112dp"
+                android:layout_height="46dp"
+                android:layout_gravity="top"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/Bulbasaur"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="112dp"
+                android:layout_height="46dp"
+                android:layout_gravity=""
+                android:layout_marginLeft="340dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="20dp"
+                android:text="#008"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/txtv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="118dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="257dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginBottom="428dp"
+        android:text="@string/Wartortle"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:elevation="10dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="351dp"
+        app:cardBackgroundColor="@color/material_dynamic_primary50"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:layout_width="112dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+            android:gravity="center|center_horizontal"
+            android:text="Water"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="260dp"
+        android:layout_marginBottom="291dp"
+        android:text="22.5KG"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="223dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="291dp"
+        android:text="1.0 M"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="441dp"
+        android:layout_marginEnd="275dp"
+        android:layout_marginBottom="260dp"
+        android:text="Weight"
+        android:textColor="@color/material_dynamic_neutral_variant50"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="245dp"
+        android:layout_marginTop="441dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="260dp"
+        android:text="Height"
+        android:textColor="@color/material_dynamic_neutral_variant50"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="478dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="207dp"
+        android:text="Base stats"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="523dp"
+        android:layout_marginEnd="326dp"
+        android:layout_marginBottom="174dp"
+        android:text="HP"
+        android:textColor="@color/material_dynamic_neutral_variant50"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="558dp"
+        android:layout_marginEnd="326dp"
+        android:layout_marginBottom="138dp"
+        android:text="ATK"
+        android:textColor="@color/material_dynamic_neutral_variant50"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="593dp"
+        android:layout_marginEnd="327dp"
+        android:layout_marginBottom="103dp"
+        android:text="DEF"
+        android:textColor="@color/material_dynamic_neutral_variant50"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="664dp"
+        android:layout_marginEnd="327dp"
+        android:layout_marginBottom="32dp"
+        android:text="EXP"
+        android:textColor="@color/material_dynamic_neutral_variant50"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="628dp"
+        android:layout_marginEnd="327dp"
+        android:layout_marginBottom="68dp"
+        android:text="SPD"
+        android:textColor="@color/material_dynamic_neutral_variant50"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/determinateBarHp"
+        style="@style/CustomProgressBar"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="187dp"
+        android:max="300"
+        android:progress="199"
+        android:progressTint="#DC143C" />
+
+
+    <ProgressBar
+        android:id="@+id/determinateBarATK"
+        style="@style/CustomProgressBar"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="151dp"
+        android:max="300"
+        android:progress="166"
+        android:progressTint="#FF8C00" />
+
+    <TextView
+        android:layout_width="41dp"
+        android:layout_height="11dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="191dp"
+        android:layout_marginTop="564dp"
+        android:layout_marginEnd="178dp"
+        android:layout_marginBottom="156dp"
+        android:text="199/300"
+        android:textColor="@color/white"
+        android:textSize="10sp" />
+
+    <ProgressBar
+        android:id="@+id/determinateBarDEF"
+        style="@style/CustomProgressBar"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="114dp"
+        android:max="300"
+        android:progress="164"
+        android:progressTint="#1E90FF" />
+
+    <TextView
+        android:layout_width="41dp"
+        android:layout_height="11dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="187dp"
+        android:layout_marginTop="602dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="118dp"
+        android:text="199/300"
+        android:textColor="@color/white"
+        android:textSize="10sp" />
+
+    <ProgressBar
+        android:id="@+id/determinateBarSPD"
+        style="@style/CustomProgressBar"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="78dp"
+        android:max="300"
+        android:progress="13"
+        android:progressTint="#778899" />
+
+    <TextView
+        android:layout_width="41dp"
+        android:layout_height="11dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="638dp"
+        android:layout_marginEnd="254dp"
+        android:layout_marginBottom="82dp"
+        android:text="199/300"
+        android:textColor="@color/black"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="41dp"
+        android:layout_height="11dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="526dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="194dp"
+        android:text="199/300"
+        android:textColor="@color/white"
+        android:textSize="10sp" />
+
+
+    <ProgressBar
+        android:id="@+id/determinateBarEXP"
+        style="@style/CustomProgressBar"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="39dp"
+        android:max="1000"
+        android:progress="419"
+        android:progressTint="#008000" />
+
+    <TextView
+        android:layout_width="41dp"
+        android:layout_height="11dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="676dp"
+        android:layout_marginEnd="219dp"
+        android:layout_marginBottom="44dp"
+        android:text="199/300"
+        android:textColor="@color/white"
+        android:textSize="10sp" />
+
+
+</RelativeLayout>

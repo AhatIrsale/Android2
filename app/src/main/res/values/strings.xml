@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pokemon</string>
+    <string name="Bulbasaur">Bulbasaur</string>
+    <string name="Butterfree">Butterfree</string>
+    <string name="Blastoise">Blastoise</string>
+    <string name="Charmander">Charmander</string>
+    <string name="Ivysaur">Ivysaur</string>
+    <string name="Wartortle">Wartortle</string>
+</resources>
